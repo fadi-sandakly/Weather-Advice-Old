@@ -35,7 +35,7 @@
       <dmn:requiredDecision href="#_965FA4AF-A5B4-41B6-B240-96E8D9D0C983"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_610F827E-C697-4843-B210-326A8684C6B1">
-      <dmn:text>if Name = "" then "Sorry, we don't have enough information to provide a response." else "Hello "+ Name +"! My advice today: " + Weather-Advice
+      <dmn:text>if Name = "" then "Sorry, we don't have enough information to provide a response." else "Hello "+ Name +"! My advice is you listen to it: " + Weather-Advice
 </dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
